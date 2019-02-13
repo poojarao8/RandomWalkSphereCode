@@ -1,0 +1,23 @@
+**********************************************************************main.cpp is the file is the main file that should be used. 
+
+In order to compile the code, just run:
+
+./run.sh
+
+In order to run the code, with N procs:
+
+mpirun -np N main.o
+
+Other files in the folder:
+
+1. stl.cpp
+
+This file will be subdivided into other files in the future according to what the functions are doing in that file. Right now, most of the major functions are in there.
+
+
+2. inv.cpp
+
+It contains the functions that calculates the inverse of the rotation matrix that is used in the random displacement of the walker.
+
+ 
+

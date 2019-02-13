@@ -1,0 +1,8 @@
+**********************************************************************
+The folder "parallel" contains the latest and functional version of the isothermal code that simulates conduction on sphere in C++. 
+
+To run the adiabatic version, just comment out the function adjNumWlkrs() in main.cpp and it should work.
+
+The "serial" folder, contains a serial version, which contains a bug (number of walkers doesn't seem to increase with time and only fluctuates around a certain value). It will be removed in the future and it is recommended that you do not use it. 
+
+If you do want to run a serial version, please use parallel/main.cpp with 1 MPI processor.
